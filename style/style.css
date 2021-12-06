@@ -852,8 +852,8 @@ align-items:baseline;
   fill: var(--acent-color);
 }
 
-.form--input:hover,
-.form--input:focus {
+.form-input:hover,
+.form-input:focus {
   border-color: var(--acent-color);
 }
 
