@@ -497,16 +497,15 @@ border-color 250ms var(--animation-cubic-bezier);
 }
 .bottom-container-link{
   width: 206px;
-  margin-right: 93px;
+  
 }
 
 .bottom-container {
   display: flex;
 align-items:baseline;
+justify-content: space-between;
 }
-.bottom-container-address {
-  margin-right: 74px;
-}
+
 .footer-general {
   display: flex;
   padding-top: 20px;
@@ -559,12 +558,14 @@ align-items:baseline;
   .third-text {
     margin-bottom: 20px;
   
-    color: var(--third-text-color) ;
+    
   
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    color: var(--third-text-color);
+    
   }
   
   .third-form-inner {
